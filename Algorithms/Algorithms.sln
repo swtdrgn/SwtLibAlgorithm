@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithms", "Algorithms\Algorithms.vcxproj", "{9364108A-FDB5-4F70-A716-B8E9BBA1284B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlgorithmsUnitTest", "AlgorithmsUnitTest\AlgorithmsUnitTest.vcxproj", "{A45268D5-A949-4212-8AF8-278DF5E6827A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9364108A-FDB5-4F70-A716-B8E9BBA1284B} = {9364108A-FDB5-4F70-A716-B8E9BBA1284B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9364108A-FDB5-4F70-A716-B8E9BBA1284B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9364108A-FDB5-4F70-A716-B8E9BBA1284B}.Debug|Win32.Build.0 = Debug|Win32
+		{9364108A-FDB5-4F70-A716-B8E9BBA1284B}.Release|Win32.ActiveCfg = Release|Win32
+		{9364108A-FDB5-4F70-A716-B8E9BBA1284B}.Release|Win32.Build.0 = Release|Win32
+		{A45268D5-A949-4212-8AF8-278DF5E6827A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A45268D5-A949-4212-8AF8-278DF5E6827A}.Debug|Win32.Build.0 = Debug|Win32
+		{A45268D5-A949-4212-8AF8-278DF5E6827A}.Release|Win32.ActiveCfg = Release|Win32
+		{A45268D5-A949-4212-8AF8-278DF5E6827A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
